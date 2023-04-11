@@ -1,0 +1,8 @@
+http.favicon.hash:1821913082
+https://www.cool-expert.de/
+
+appliance based on win7 embbed
+
+default cred, arbitrary file read, arbitrary fileupload, RCE (read the code)
+
+it was fun to exploit, TIL cgilua used to be a thing and you can exec command in 2 lines.. humph...
